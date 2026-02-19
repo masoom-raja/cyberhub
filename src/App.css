@@ -1,0 +1,82 @@
+ .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem; /* 16px - mobile padding */
+    padding-right: 1rem;
+  }
+
+  .flex {
+    min-height: 0;
+    min-width: 0;
+  }
+
+   @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem; /* 24px - tablet padding */
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem; /* 32px - desktop padding */
+      padding-right: 2rem;
+      max-width: 1280px; /* Standard content width */
+    }
+  }
+
+  :root {
+  /* Ashique Cyber Hub Color Palette */
+  /* Primary: Deep Teal - Digital Trust & Modernity */
+  --primary: #0D7377;
+  --primary-foreground: #F0F9F8;
+  
+  /* Secondary: Warm Saffron - Indian Heritage */
+  --secondary: #FF6B35;
+  --secondary-foreground: #FFF8F3;
+  
+  /* Accent: Golden Yellow - Prosperity & Government Services */
+  --accent: #FFD60A;
+  --accent-foreground: #2C2C2C;
+  
+  /* Sidebar Colors */
+  --sidebar-primary: #0D7377;
+  --sidebar-primary-foreground: #F0F9F8;
+  
+  /* Chart Colors */
+  --chart-1: #0D7377;
+  --chart-2: #FF6B35;
+  --chart-3: #FFD60A;
+  --chart-4: #14919B;
+  --chart-5: #00A896;
+  
+  --radius: 0.65rem;
+  --background: #FFFFFF;
+  --foreground: #1A1A1A;
+  --card: #F8FFFE;
+  --card-foreground: #1A1A1A;
+  --popover: #FFFFFF;
+  --popover-foreground: #1A1A1A;
+  --muted: #F0F9F8;
+  --muted-foreground: #666666;
+  --destructive: #EF4444;
+  --destructive-foreground: #FFFFFF;
+  --border: #E8F1F0;
+  --input: #F0F9F8;
+  --ring: #0D7377;
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #1A1A1A;
+  --sidebar-accent: #F0F9F8;
+  --sidebar-accent-foreground: #0D7377;
+  --sidebar-border: #E8F1F0;
+  --sidebar-ring: #0D7377;
+}
+
+/* .service-card {
+  @apply bg-white rounded-lg p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-200;
+}
+
+.service-icon {
+  @apply w-16 h-16 rounded-full bg-gradient-to-br from-[#0D7377] to-[#14919B] flex items-center justify-center text-white mb-4;
+} */

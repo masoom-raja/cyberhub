@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@reference "tailwindcss";
+
+
+
+.service-card {
+  @apply bg-white rounded-lg p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-200;
+}
+
+.service-icon {
+  @apply w-16 h-16 rounded-full bg-gradient-to-br from-[#0D7377] to-[#14919B] flex items-center justify-center text-white mb-4;
+}
