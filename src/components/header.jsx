@@ -21,7 +21,9 @@ export default function Header() {
           <div className="flex items-center gap-3">
             <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#0D7377] to-[#14919B] flex items-center justify-center">
               <span className="text-white font-bold text-xl">AC</span>
+               {/* <h1 className="text-lg font-bold text-[#0D7377]">Ashique Cyber Hub</h1> */}
             </div>
+             <h1 className="text-lg font-bold text-[#0D7377] block sm:hidden">Ashique Cyber Hub</h1>
             <div className="hidden sm:block">
               <h1 className="text-lg font-bold text-[#0D7377]">Ashique Cyber Hub</h1>
               <p className="text-xs text-[#666666]">Cyber cafe | Digital Services Center</p>
@@ -48,7 +50,7 @@ export default function Header() {
               <span className="text-sm font-semibold">+91 74858 97296</span>
             </div>
             <button onClick={() => scrollToSection('contact')} className="btn-primary">
-              Get Started
+              Get in Touch
             </button>
           </div>
 
