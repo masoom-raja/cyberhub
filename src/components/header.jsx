@@ -86,9 +86,7 @@ export default function Header() {
               </Link>
             ))}
 
-            <button className="w-full mt-4 bg-[#d97706] hover:bg-[#b45309] text-white py-2 rounded-lg font-medium">
-              Get Quote
-            </button>
+           
 
           </div>
         )}
