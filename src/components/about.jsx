@@ -1,7 +1,7 @@
 import { Heart, Eye, Shield, Users, Award, Zap } from "lucide-react";
 import Navbar from "./header";
 import Footer from "./footer";
-
+// jldfa
 
 export default function About() {
   const values = [
